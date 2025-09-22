@@ -124,8 +124,8 @@ if "last_uploaded_names" not in st.session_state:
     st.session_state.last_uploaded_names: List[str] = []
 
 # ------------------- UI -------------------
-st.set_page_config(page_title="SPOOFER Vidéo — Qualité MAX", page_icon="🎬", layout="wide")
-st.title("SPOOFER — Vidéo (Qualité maximale)")
+st.set_page_config(page_title="Grumtor's Videos Spoofer", page_icon="🎬", layout="wide")
+st.title("Grumtor's Videos Spoofer")
 
 if not FFMPEG_OK:
     st.error("⚠️ ffmpeg est introuvable.\n"
